@@ -69,7 +69,7 @@ async def read(path: str):
 async def a1(email: str, **kwargs):
     await run(
         f"""
-Install `uv` (if required) and run the script `https://raw.githubusercontent.com/pradeepmondal/llm-based-automation-agent/refs/heads/main/evaluate/datagen.py`
+Install `uv` (if required) and run the script `https://raw.githubusercontent.com/muonmagnet/llm-based-automation-agent/refs/heads/main/evaluate/evaluate.py`
 with `{email}` as the only argument
 """
     )
